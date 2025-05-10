@@ -4,7 +4,7 @@ header{
     background-color: yellow;
     color: red;
 }
-li
+header li
 {
     display:inline-flex;
     font-size: 20px;
@@ -13,7 +13,48 @@ li
 
 }
 .container
-{
+{ display: flex;
+    background-color: blue;
     width: 100%;
     margin: auto;
+}
+header a{
+text-decoration: none;
+
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.box{
+    width: 600px;
+    padding: 50px;
+
+}
+.btn-signup
+{
+    background-color: orange;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.summary
+{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.image{
+border-radius: 60px;
+
+}
+.title
+{
+    font-size: 30px;
+
 }
