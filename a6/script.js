@@ -7,6 +7,6 @@ button.addEventListener('click', function() {
   const pass = passInput.value;
 
   const output = document.createElement('p');
-  output.textContent = ${user}, ${pass};
+  output.textContent = `${user},${pass}`;
   document.body.appendChild(output);
 });
