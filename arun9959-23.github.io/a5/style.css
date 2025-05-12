@@ -1,0 +1,19 @@
+p
+{
+    background-color: blue;
+}
+p:hover
+{
+    background-color: yellow;
+
+}
+input :focus{
+    background-color: blue;
+}
+div :first-line{
+    background-color: yellow;
+
+}
+ul ::marker{
+    background-color: red;
+}
