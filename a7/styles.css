@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.inputs {
+  width: 40%;
+}
+
+.results {
+  width: 40%;
+  text-align: left;
+  font-weight: bold;
+}
