@@ -8,16 +8,16 @@ function calculate(operator) {
     } else {
         switch (operator) {
             case '+':
-                result = Addition: ${n1 + n2};
+                result = `Addition: ${n1 + n2}`;
                 break;
             case '-':
-                result = Subtraction: ${n1 - n2};
+                result = `Subtraction: ${n1 - n2}`;
                 break;
             case '*':
-                result = Multiplication: ${n1 * n2};
+                result =` Multiplication: ${n1 * n2}`;
                 break;
             case '/':
-                result = n2 !== 0 ? Division: ${n1 / n2} : "Cannot divide by zero.";
+                result = n2 !== 0 ?` Division: ${n1 / n2} `: "Cannot divide by zero.";
                 break;
         }
     }
