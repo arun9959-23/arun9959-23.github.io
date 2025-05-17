@@ -6,7 +6,7 @@ const items=[
 ];
 
 const updateItems=items.map((item)=>({
-    ...item,price:item.price+5,item_status:"complete"
+    ...item,price:item.price+5,status:"complete"
 
 }))
 console.log(updateItems);
