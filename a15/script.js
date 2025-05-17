@@ -4,7 +4,7 @@ const items = [
   { name: "orange", price: 80, qty: 2, status: "pending" },
 ];
 
-const updateItems = items.map((item) => ({
+const updateItems = items.filter(item =>item.qty >2).map((item) => ({
   ...item,
   price: item.price + 5,
   total: (item.price + 5) * item.qty,
