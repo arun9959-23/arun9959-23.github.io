@@ -8,8 +8,7 @@ async function dispData() {
   console.log(data);
 }
 async function main(){
-
- await dispData();
+await dispData();
 greet();
 }
 main();
