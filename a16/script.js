@@ -17,7 +17,7 @@ const updateItems = items.map(item => {
     price: item.price + 5,
     qty,
     total: (item.price + 5) * qty,
-    status: "complete"
+    
   };
 });
 
