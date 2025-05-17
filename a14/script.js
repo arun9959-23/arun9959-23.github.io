@@ -9,3 +9,4 @@ const updateItems=items.map((item)=>({
     ...item,price:item.price+5,item_status:"complete"
 
 }))
+console.log(updateItems);
